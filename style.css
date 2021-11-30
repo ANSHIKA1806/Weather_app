@@ -2,15 +2,17 @@
   margin: 0;
   padding: 0;
 }
-.content {
+body{
+  background: #222;
+  background-image: url('https://source.unsplash.com/1600x900/?landscape');
+}
+.content{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 92vh;
+  height: 94vh;
   margin: 0;
   font-family: 'Open Sans', sans-serif;
-  background: #222;
-  background-image: url('https://source.unsplash.com/1600x900/?landscape');
   font-size: 120%;
 }
 
@@ -87,16 +89,21 @@ h1.temp {
   position: absolute;
   top: 0;
   left: 20px;
-}
+ }
+ 
 .footer{
+  width:100vw;
+  position: absolute;
+  bottom:0;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   background-color: black;
   color: white;
-  height: 8vh;
+  height: 6vh;
   font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
 } 
 .footer a{
   text-decoration: none;
