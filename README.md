@@ -1,3 +1,3 @@
-# weather_app
+# Weather App
 
 https://weatherbyanshika.netlify.app/
